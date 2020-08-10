@@ -1,0 +1,10 @@
+// BookstoreViewModel.idl
+import "BookSku.idl";
+
+namespace Bookstore
+{
+    runtimeclass BookstoreViewModel
+    {
+        BookSku BookSku{ get; };
+    }
+}

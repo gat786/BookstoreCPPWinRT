@@ -1,0 +1,12 @@
+// MainPage.idl
+import "BookstoreViewModel.idl";
+
+namespace Bookstore
+{
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page
+    {
+        MainPage();
+        BookstoreViewModel MainViewModel{ get; };
+        Windows.UI.Xaml.Controls.TextBox myTextBox{ get; };
+    }
+}
